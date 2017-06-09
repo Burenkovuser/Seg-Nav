@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBC4EF4D1EE91258009E768B /* TaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4EF4C1EE91258009E768B /* TaskListController.m */; };
+		FBC4EF501EE912B6009E768B /* TaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4EF4F1EE912B6009E768B /* TaskDetailController.m */; };
 		FBF01D651EE8FCAB0087F738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF01D641EE8FCAB0087F738 /* main.m */; };
 		FBF01D681EE8FCAB0087F738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF01D671EE8FCAB0087F738 /* AppDelegate.m */; };
 		FBF01D6B1EE8FCAB0087F738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF01D6A1EE8FCAB0087F738 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBC4EF4B1EE91258009E768B /* TaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskListController.h; path = "../../Simple Storyboard/Simple Storyboard/TaskListController.h"; sourceTree = "<group>"; };
+		FBC4EF4C1EE91258009E768B /* TaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskListController.m; path = "../../Simple Storyboard/Simple Storyboard/TaskListController.m"; sourceTree = "<group>"; };
+		FBC4EF4E1EE912B6009E768B /* TaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailController.h; sourceTree = "<group>"; };
+		FBC4EF4F1EE912B6009E768B /* TaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailController.m; sourceTree = "<group>"; };
 		FBF01D601EE8FCAB0087F738 /* Seg Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seg Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF01D641EE8FCAB0087F738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBF01D661EE8FCAB0087F738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 				FBF01D691EE8FCAB0087F738 /* ViewController.h */,
 				FBF01D6A1EE8FCAB0087F738 /* ViewController.m */,
 				FBF01D6C1EE8FCAB0087F738 /* Main.storyboard */,
+				FBC4EF4B1EE91258009E768B /* TaskListController.h */,
+				FBC4EF4C1EE91258009E768B /* TaskListController.m */,
+				FBC4EF4E1EE912B6009E768B /* TaskDetailController.h */,
+				FBC4EF4F1EE912B6009E768B /* TaskDetailController.m */,
 				FBF01D6F1EE8FCAB0087F738 /* Assets.xcassets */,
 				FBF01D711EE8FCAB0087F738 /* LaunchScreen.storyboard */,
 				FBF01D741EE8FCAB0087F738 /* Info.plist */,
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF01D6B1EE8FCAB0087F738 /* ViewController.m in Sources */,
+				FBC4EF501EE912B6009E768B /* TaskDetailController.m in Sources */,
 				FBF01D681EE8FCAB0087F738 /* AppDelegate.m in Sources */,
+				FBC4EF4D1EE91258009E768B /* TaskListController.m in Sources */,
 				FBF01D651EE8FCAB0087F738 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +321,7 @@
 				FBF01D791EE8FCAB0087F738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
